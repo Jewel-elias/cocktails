@@ -1,0 +1,58 @@
+.recommendation-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommend-cock-map-container {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40%;
+    transition: 0.4s ease all, left 0.4s cubic-bezier(0.18, 0.89, 0.35, 1.15);
+}
+
+.recommend-cock-map-container:hover {
+    box-shadow: 0 0.1em 0.1em 0.1em rgba(148, 148, 148, 0.294);
+    cursor: pointer;
+}
+
+.recommend-cock-map-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.recommend-cock-name {
+    font-weight: bold;
+}
+
+.recommend-cock-tags {
+    font-size: 0.7em;
+    font-weight: bold;
+    color: gray;
+}
+
+.no-recommendation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.no-recommendation span{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.no-recommendation i{
+    font-size: 5.5em;
+    color: tomato;
+}
+.recommend-cock-img {
+    width: 100%;
+}
